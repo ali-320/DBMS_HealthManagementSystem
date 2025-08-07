@@ -1,0 +1,3 @@
+Test #1:
+Successfully, pulled and pushed repo from github on my local disk
+using HTTPS.
