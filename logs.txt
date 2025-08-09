@@ -1,0 +1,23 @@
+Test #1:
+Successfully, pulled and pushed repo from github on my local disk
+using HTTPS.
+
+Test #2:
+Successfully created the database structure in MySQL.
+
+Test #3:
+Trying to get the data from csv to SQL, but got error in version. Now,
+created a .venv file (a virtual environment) that doesn't access the global
+python but takes the python version, installed in this virtual environment.
+
+Test #4:
+Redo test #3. I got an error, as the name of columns was different.
+
+Test #5:
+Corrected names but still got error because of _id can't be added in heart_data
+without being in patients.
+
+Test #6:
+Added the data in pateints table. Now about to run the code again. This time the
+code ran with my own modifications. The data of patients has been stored in the heart_data
+table.

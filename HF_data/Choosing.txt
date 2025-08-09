@@ -1,0 +1,13 @@
+This dataset, sourced from the Faisalabad Institute of Cardiology 
+and Allied Hospital (Punjab, Pakistan), comprises 299 patient records 
+with 13 clinical and lifestyle features—ideal for 
+building, training, and testing predictive models.
+
+It is the most suitable for a prototype, however it has following limitations:
+Small N (299) → limited generalization, high variance, risk of overfitting.
+
+Cross-sectional (no high-resolution time series) → not ideal for sequence-based anomaly detection.
+
+Single center → potential bias; model may not generalize to different hospitals/populations.
+
+Additional datasets for improvement are mentioned in the future.txt.

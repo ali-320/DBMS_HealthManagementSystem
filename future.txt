@@ -1,3 +1,24 @@
 1. For scaling up options, open chat gpt, with mhali... account, open the chat
 SQL project b, and ask it of DBMS_AI_Health_ScaleUp.
 
+Additional datasets that can improve performance are given below:
+Use these to augment training, pretrain models, or test transfer learning / domain adaptation.)
+
+    MIMIC-IV / MIMIC-III (ICU time-series) — high-resolution vitals, labs, notes. Great for learning physiologic patterns and building sequence models.
+
+    eICU-CRD — multi-centre ICU dataset (complementary to MIMIC).
+
+    HiRID — dense ICU time-series (Europe).
+
+    Kaggle cardiac / heart failure datasets — additional tabular datasets for mortality/cardiac event prediction.
+
+    Country/regional datasets (DHS / WHO / Pakistan health surveys) — for demographic context and calibration.
+
+    Synthetic time-series / data augmentation — if privacy or availability limits you, generate synthetic patient sequences (GANs, TimeGAN) to pretrain sequence models.
+
+Strategy for combining:
+
+    Use Pakistan heart dataset for final prototype demonstrations (domain match).
+
+    Pretrain sequence models or anomaly detectors on MIMIC/eICU, then fine-tune or calibrate with any local (Pakistan) data available. This gives better sensitivity to physiologic anomalies while keeping local relevance.
+
