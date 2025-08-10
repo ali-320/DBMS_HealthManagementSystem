@@ -8,3 +8,5 @@ Rename the file to Pak_Fais_HeartData.csv.
 2. Run the DDL commands mentioned in SQL_structure.sql in MySQL workbench.
 
 3. After that run the commands mention in insert_patients.sql
+
+4. Open the Pre_Process folder, and run the data_prepare.py to get the data for model training.
