@@ -1,0 +1,8 @@
+1. Build the SQL databse. (Done)
+2. Create pythong code to insert data into the SQL databsea. (Done)
+3. Select the AI models to train.
+4. Prepare data for their training.
+5. Train the models.
+6. Test the models.
+7. Make the alerts of models to appear in the SQL DB.
+8. Connect it with GUI.
