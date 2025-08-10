@@ -1,6 +1,14 @@
 1. Build the SQL databse. (Done)
 2. Create pythong code to insert data into the SQL databsea. (Done)
-3. Select the AI models to train.
+3. Select the AI models to train:
+    Possible selections:
+    i. Isolation forest: Unsupervised anomaly detection based on vitals and labs data.
+    ii. Dense Autoencoder: Unsupervised reconstruction based anomaly detection on vitals and labs.
+    iii. XG Boost classifier: Supervised classification to predict morality using a broader set of features.
+    Other selections:
+    i. Random forest.
+    ii. Logistic Regression.
+    iii. LSTM (for sequential patient monitoring).
 4. Prepare data for their training.
 5. Train the models.
 6. Test the models.

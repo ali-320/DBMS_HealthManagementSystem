@@ -21,3 +21,12 @@ Test #6:
 Added the data in pateints table. Now about to run the code again. This time the
 code ran with my own modifications. The data of patients has been stored in the heart_data
 table.
+
+Test #7:
+Going to prepare data for the training of the three models mentioned in the second para of 
+Checklist.txt. data_prepare.py is going to do this.
+Error deduction: Got an error, because the morality column was also mentioned in the variable
+of the code and was called from the DB as well, causing unallowed duplication.
+
+Test #8:
+Numeric feature, and supervised features, have been fixed, and hope so that code runs now.
