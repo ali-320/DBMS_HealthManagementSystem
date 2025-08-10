@@ -9,4 +9,6 @@ Rename the file to Pak_Fais_HeartData.csv.
 
 3. After that run the commands mention in insert_patients.sql
 
-4. Open the Pre_Process folder, and run the data_prepare.py to get the data for model training.
+4. After that run the load_csv_to_mysql.py file to insert data into the SQL DB.
+
+5. Open the Pre_Process folder, and run the data_prepare.py to get the data for model training.
