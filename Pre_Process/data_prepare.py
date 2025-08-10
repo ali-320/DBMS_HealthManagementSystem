@@ -102,3 +102,7 @@ print(f"Supervised ready: X_train shape {X_train.shape}, y_train shape {y_train.
 pd.DataFrame(X_unsupervised, columns=unsupervised_features).to_csv('./Pre_Process/prepared_unsupervised.csv', index=False)
 pd.DataFrame(X_train).to_csv('./Pre_Process/X_train_sup.csv', index=False)  # Note: Columns are transformed
 y_train.to_csv('./Pre_Process/y_train_sup.csv', index=False)
+
+# Supervised test
+pd.DataFrame(X_test).to_csv('./Pre_Process/X_test.csv', index=False)    # transformed columns
+y_test.to_csv('./Pre_Process/y_test.csv', index=False)

@@ -3,7 +3,9 @@
 3. Select the AI models to train:
     Possible selections:
     i. Isolation forest: Unsupervised anomaly detection based on vitals and labs data.
+    Detects outliers in vitals/labs.
     ii. Dense Autoencoder: Unsupervised reconstruction based anomaly detection on vitals and labs.
+    Identifies complex multivariate anomalies.
     iii. XG Boost classifier: Supervised classification to predict morality using a broader set of features.
     Other selections:
     i. Random forest.
